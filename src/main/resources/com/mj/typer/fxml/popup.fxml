@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mj.typer.PopupController">
+    <children>
+        <Text layoutX="143.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Looks like this is your first time using Type Practice" textAlignment="CENTER" wrappingWidth="310">
+            <font>
+                <Font name="Calibri" size="25.0" />
+            </font>
+        </Text>
+        <TextField fx:id="username" layoutX="225.0" layoutY="174.0" promptText="Name" />
+        <Button layoutX="273.0" layoutY="220.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+    </children>
+</AnchorPane>
