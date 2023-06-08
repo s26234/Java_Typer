@@ -210,12 +210,6 @@ public class GameController implements Initializable {
             programWord.setText(words.get(wordCounter));
             secondProgramWord.setText(words.get(wordCounter+1));
             wordCounter++;
-
         }
-
     }
-
-
-
-
 }

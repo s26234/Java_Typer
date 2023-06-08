@@ -34,7 +34,7 @@
                 <Font name="Calibri" size="13.0" />
             </font>
         </Text>
-        <Text fx:id="wordsPerMin" layoutX="279.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="42.64990234375">
+        <Text fx:id="wordsPerMin" layoutX="279.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="42.0">
             <font>
                 <Font name="Calibri" size="31.0" />
             </font>
@@ -49,12 +49,12 @@
                 <Font size="20.0" />
             </font>
         </TextField>
-        <Text fx:id="programWord" layoutX="216.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="word" textAlignment="CENTER" wrappingWidth="184.74749755859375">
+        <Text fx:id="programWord" layoutX="216.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="word" textAlignment="CENTER" wrappingWidth="184.0">
             <font>
                 <Font size="21.0" />
             </font>
         </Text>
-        <Text fx:id="secondProgramWord" fill="#0000005b" layoutX="362.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="word" textAlignment="CENTER" wrappingWidth="184.74749755859375">
+        <Text fx:id="secondProgramWord" fill="#0000005b" layoutX="362.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="word" textAlignment="CENTER" wrappingWidth="184.0">
             <font>
                 <Font size="21.0" />
             </font>

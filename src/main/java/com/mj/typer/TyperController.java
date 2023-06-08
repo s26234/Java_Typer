@@ -52,7 +52,9 @@ public class TyperController implements Initializable {
         timeLabel.setText("Today is " + strDay);
 
         int[] data = FileHandling.sumUpNumbers("com.pl.typer/data");
-
+        total.setText(String.valueOf(data[0]));
+        wpm.setText(String.valueOf(Math.round(data[1]*1.0/data[3])));
+        invalid.setText(String.valueOf(data[2]));
 
 
     }

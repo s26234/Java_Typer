@@ -10,16 +10,15 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class Main extends Application {
-
     private static Stage stg;
 
     @Override
     public void start(Stage stage) throws IOException {
         stg = stage;
         stage.setResizable(false);
-        Parent root = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/Users/rumac/Documents/GIT/LTF/Typer/src/main/java/com/mj/typer/hello-view.fxml"));
         stage.setTitle("TYPER");
-      //stage.getIcons().add(new Image("images.fyfh.png"));
+        stage.getIcons().add(new Image("images.fyfh.png"));
         stage.setScene(new Scene(root,600, 450));
         stage.show();
     }

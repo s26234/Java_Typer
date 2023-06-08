@@ -20,7 +20,6 @@ public class FileHandling {
                 }
             }
         }
-
         return chosenFile;
     }
 
@@ -42,14 +41,12 @@ public class FileHandling {
                         returnArray[1] += Integer.parseInt(arr[1]);
                         returnArray[2] += Integer.parseInt(arr[2]);
                     }
-
-                } catch (IOException ignored) {
+                }
+                catch (IOException ignored) {
                 }
             }
         }
         returnArray[3] = counter;
         return returnArray;
     }
-
-
 }
